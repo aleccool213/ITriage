@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/patient_medication_header"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="false"
+        android:text="@string/patient_medication_header" />
+
+        <EditText
+            android:id="@+id/patient_medication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/patient_name_of_medication"
+            android:inputType="textMultiLine"
+            android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/patient_instructions_header"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="false"
+        android:text="@string/patient_instructions_header" />
+    
+            <EditText
+            android:id="@+id/patient_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/patient_instructions"
+            android:inputType="textMultiLine"
+            android:singleLine="false" />
+
+</LinearLayout>

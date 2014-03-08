@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/patient_record_prescription"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_content_save"
+        android:title="@string/patient_record_prescription"/>
+
+</menu>

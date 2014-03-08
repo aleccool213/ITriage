@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="16dp">
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent" >-->
+
+    <EditText
+            android:id="@+id/register_username"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/prompt_username" />
+
+    <EditText
+            android:id="@+id/register_password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword" />
+
+    <EditText
+            android:id="@+id/admin_password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_admin"
+            android:inputType="textPassword" />
+
+    <CheckBox
+            android:id="@+id/register_physician"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you a Physician?" />
+
+    <Button
+            android:id="@+id/register_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text=" Submit "
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:layout_gravity="center" />
+
+    <Button
+            android:id="@+id/register_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text=" Cancel "
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:layout_gravity="center" />
+
+
+</LinearLayout>
+<!--</RelativeLayout>-->

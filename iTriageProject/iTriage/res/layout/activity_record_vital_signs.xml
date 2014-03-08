@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="16dp">
+
+    <EditText android:id="@+id/patient_record_temperature"
+              android:hint="@string/temperature"
+              android:singleLine="true"
+              android:inputType="numberDecimal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+    <TextView style="?android:attr/listSeparatorTextViewStyle"
+              android:id="@+id/patient_record_blood_pressure_header"
+              android:text="@string/blood_pressure"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:linksClickable="false"/>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/patient_record_blood_pressure_s"
+                  android:hint="@string/patient_blood_pressure_s"
+                  android:singleLine="true"
+                  android:inputType="number"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/patient_record_blood_pressure_d"
+                  android:hint="@string/patient_blood_pressure_d"
+                  android:singleLine="true"
+                  android:inputType="number"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <EditText android:id="@+id/patient_record_heart_rate"
+              android:hint="@string/heart_rate"
+              android:singleLine="true"
+              android:inputType="number"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+</LinearLayout>

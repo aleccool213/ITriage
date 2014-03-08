@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="6dp"
+                  android:paddingLeft="12dp"
+                  android:paddingRight="12dp">
+
+        <LinearLayout android:id="@+id/patient_detail_urgency"
+                      android:background="@drawable/card_pressable"
+                      style="@style/card">
+
+            <include layout="@layout/patient_detail_list_item" />
+
+        </LinearLayout>
+
+        <RelativeLayout android:id="@+id/patient_detail_vital_signs_header"
+                        style="@style/card_header">
+
+            <TextView android:text="@string/vital_signs"
+                      style="@style/card_header_title" />
+
+            <TextView android:id="@+id/record_vital_signs"
+                      android:text="@string/record"
+                      style="@style/card_header_button" />
+
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/patient_detail_vital_signs"
+                      android:background="@drawable/card_pressable"
+                      style="@style/card">
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_temperature" />
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="#DADADA" />
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_blood_pressure" />
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="#DADADA" />
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_heart_rate" />
+
+        </LinearLayout>
+
+        <RelativeLayout android:id="@+id/patient_detail_symptoms_header"
+                        style="@style/card_header">
+
+            <TextView android:text="@string/symptoms"
+                      style="@style/card_header_title" />
+
+            <TextView android:id="@+id/record_symptoms"
+                      android:text="@string/record"
+                      style="@style/card_header_button" />
+
+        </RelativeLayout>
+
+        <LinearLayout style="@style/card"
+                      android:id="@+id/patient_detail_symptoms"
+                      android:background="@drawable/card_pressable">
+
+            <TextView android:id="@android:id/text1"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="8dp"
+                      android:paddingBottom="12dp"
+                      android:paddingTop="12dp"
+                      android:text="@string/none_recorded" />
+
+        </LinearLayout>
+
+        <RelativeLayout android:id="@+id/patient_detail_prescriptions_header"
+                        style="@style/card_header">
+
+            <TextView android:text="@string/prescriptions"
+                      style="@style/card_header_title" />
+
+            <TextView android:id="@+id/add_prescription"
+                      android:text="@string/add"
+                      style="@style/card_header_button" />
+
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/patient_detail_prescriptions"
+                      android:background="@drawable/card_pressable"
+                      style="@style/card">
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_prescription" />
+
+        </LinearLayout>
+
+        <RelativeLayout android:id="@+id/patient_detail_doctor_header"
+                        style="@style/card_header">
+
+            <TextView android:text="@string/last_seen_by_doctor"
+                      style="@style/card_header_title" />
+
+            <TextView android:id="@+id/add_seen_by_doctor"
+                      android:text="@string/add"
+                      style="@style/card_header_button" />
+
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/patient_detail_doctor"
+                      android:background="@drawable/card_pressable"
+                      style="@style/card">
+
+            <TextView android:id="@android:id/text1"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="8dp"
+                      android:paddingBottom="12dp"
+                      android:paddingTop="12dp"
+                      android:text="@string/none_recorded" />
+
+        </LinearLayout>
+
+        <RelativeLayout android:id="@+id/patient_detail_info_header"
+                        style="@style/card_header">
+
+            <TextView android:text="@string/info"
+                      style="@style/card_header_title" />
+
+            <TextView android:id="@+id/edit_info"
+                      android:text="@string/edit"
+                      style="@style/card_header_button" />
+
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/patient_detail_info"
+                      style="@style/card">
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_name" />
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="#DADADA" />
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_birth_date" />
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="#DADADA" />
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_health_card_number" />
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="#DADADA" />
+
+            <include layout="@layout/patient_detail_list_item"
+                     android:id="@+id/patient_detail_arrival_time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

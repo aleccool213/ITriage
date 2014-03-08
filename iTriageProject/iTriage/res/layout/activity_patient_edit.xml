@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="6dp"
+              android:paddingLeft="12dp"
+              android:paddingRight="12dp">
+
+    <EditText android:id="@+id/patient_name"
+              android:hint="@string/patient_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="4dp"
+              android:inputType="textCapWords"
+              android:singleLine="true" />
+	
+
+    <EditText android:id="@+id/patient_health_card_number"
+              android:hint="@string/patient_healthcardnumber"
+              android:singleLine="true"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="4dp" />
+
+    <TextView style="?android:attr/listSeparatorTextViewStyle"
+              android:id="@+id/patient_edit_birth_date_header"
+              android:text="@string/patient_edit_birth_date_header"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/patient_birth_date"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="4dp"
+            style="?android:attr/spinnerStyle" />
+
+    <TextView style="?android:attr/listSeparatorTextViewStyle"
+              android:id="@+id/patient_edit_arrival_time_header"
+              android:text="@string/patient_edit_arrival_time_header"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent">
+
+        <Button android:id="@+id/patient_arrival_date"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="?android:attr/spinnerStyle" />
+
+        <Button android:id="@+id/patient_arrival_time"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="?android:attr/spinnerStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

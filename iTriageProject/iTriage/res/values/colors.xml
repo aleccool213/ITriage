@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_default">#494949</color>
+    <color name="button_pressed">#33b5e5</color>
+
+    <color name="card_default">@android:color/white</color>
+    <color name="card_pressed">#33b5e5</color>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/patient_edit_save"
+          android:title="@string/patient_edit_save"
+          android:icon="@drawable/ic_content_save"
+          app:showAsAction="ifRoom" />
+
+</menu>

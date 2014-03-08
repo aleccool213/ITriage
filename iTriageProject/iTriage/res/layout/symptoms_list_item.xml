@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/vital_signs"
+             style="@style/card">
+ 
+    <TextView android:id="@android:id/title"
+             style="@style/card_title" />
+ 
+    <View android:layout_width="match_parent"
+         android:layout_height="1px"
+         android:background="#DADADA" />
+ 
+    <LinearLayout android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="8dp">
+ 
+        <TextView android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/symptoms"
+                 android:textAllCaps="true"
+                 android:textAppearance="?android:attr/textAppearanceSmall" />
+ 
+        <TextView android:id="@+id/symptom"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceListItem" />
+ 
+    </LinearLayout>
+</LinearLayout>
