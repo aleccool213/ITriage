@@ -20,29 +20,30 @@ How to run using JetBrains IntelliJ (Recommended)
 Note: This has only been tested with the Android 4.4 SDK.
 
 Open IntelliJ,
-Click 'Open Project',
-Open PIII/trunk/iTriageProject,
-Click Run -> Edit Configurations...,
-Click '+' -> Android Application,
-Set Name and Module to iTriage,
-Click OK,
-Run -> Run 'iTriage',
+click 'Open Project',
+cpen PIII/trunk/iTriageProject,
+click run -> edit configurations...,
+click '+' -> android application,
+set name and module to iTriage,
+click OK,
+run -> run 'iTriage'.
+
 How to run using Eclipse ADT,
 
 Note: This has only been tested with the Android 4.4 SDK.
 
 Open Eclipse,
-Set workspace to PIII/trunk/iTriageProject,
-File -> Import... -> Android -> Existing Projects into Workspace,
-Set the root directory to PIII/trunk/iTriageProject,
-Click Finish, then wait for project to build automatically,
-Run -> Run -> Android Application,
+set workspace to PIII/trunk/iTriageProject,
+file -> import... -> android -> existing projects into workspace,
+set the root directory to PIII/trunk/iTriageProject,
+click finish, then wait for project to build automatically,
+run -> run -> android application,
 NOTE: If you experience difficulties, clean the project first
 
 Bonus Marks:
 
 Register user function is working; offers both nurse and physician creation and features a (semi-)secure protection, using an admin password (PraiseTheTsar),
-Various aesthetic choices such as:
-Spinner,
-Intuitive patient sorting interface,
+various aesthetic choices such as:
+spinner,
+intuitive patient sorting interface,
 cards UI
