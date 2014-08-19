@@ -1,6 +1,7 @@
 iTriage, 
 an Android application for performing triage on emergency room patients, and a database for storing patient data.
 A quick video demonstration of the app can be seen at: http://youtu.be/2cuMCeIWvAU.
+
 Authors
 
 c2adamge: Alex Adam,
