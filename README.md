@@ -1,3 +1,5 @@
+![Imgur](http://i.imgur.com/Dg5sddv.png)
+
 iTriage, 
 an Android application for performing triage on emergency room patients, and a database for storing patient data.
 A quick video demonstration of the app can be seen at: http://youtu.be/2cuMCeIWvAU.
